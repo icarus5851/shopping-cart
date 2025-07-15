@@ -1,7 +1,7 @@
 import React, { useRef,useEffect, useState, useContext } from 'react'
-import { CartContext } from './CartContext';
-import { Button } from './ui/button';
-import Carousel from './Carousel';
+import { CartContext } from './CartContext.jsx';
+import { Button } from './ui/button.jsx';
+import Carousel from './Carousel.jsx';
 
 function ProductDetail({product, onClose}) {
     const dialogRef = useRef(null);

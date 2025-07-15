@@ -1,6 +1,6 @@
 import React from 'react'
 import { useContext } from 'react'
-import { CartContext } from './CartContext'
+import { CartContext } from './CartContext.jsx'
 
 function QuantitySelector({ id,selectedSize, quantity }) {
     const {updateQuantity} = useContext(CartContext);

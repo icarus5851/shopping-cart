@@ -7,9 +7,9 @@ import {
 import { Button } from "./ui/button";
 
 import { useState, useContext,useEffect } from "react";
-import { CartContext } from "./CartContext";
-import Login from "./Login";
-import Signup from "./SignUp";
+import { CartContext } from "./CartContext.jsx";
+import Login from "./Login.jsx";
+import Signup from "./SignUp.jsx";
 
 
 

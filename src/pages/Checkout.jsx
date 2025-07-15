@@ -1,7 +1,7 @@
 import { CartContext } from '@/components/CartContext'
 import { Button } from '@/components/ui/button';
 import React, { useContext } from 'react'
-import ShippingForm from '@/components/Shippingform';
+import ShippingForm from '@/components/ShippingForm';
 
 
 function Checkout() {

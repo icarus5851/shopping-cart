@@ -1,8 +1,8 @@
 import Card from "./Card";
-import { products } from "@/data/products";
+import { products } from "@/data/products.js";
 import { useState } from "react";
-import { Button } from "./ui/button";
-import ProductDetail from "./ProductDetail";
+import { Button } from "./ui/button.jsx";
+import ProductDetail from "./ProductDetail.jsx";
 
 function Container(){
     const [selectedProduct, setSelectedProduct] = useState();
