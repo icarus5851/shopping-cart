@@ -2,7 +2,7 @@ import Navbar from "./Navbar.jsx";
 
 function Hero() {
     return (
-        <div className="relative bg-[url(./heromob2.jpg)] sm:bg-[url(./heromob.jpg)] md:bg-[url(./hero.jpg)] bg-cover bg-right sm:bg-center bg-no-repeat min-h-screen w-full overflow-hidden flex flex-col
+        <div className="relative bg-[url(/heromob2.jpg)] sm:bg-[url(/heromob.jpg)] md:bg-[url(/hero.jpg)] bg-cover bg-right sm:bg-center bg-no-repeat min-h-screen w-full overflow-hidden flex flex-col
         before:absolute before:inset-0 before:bg-[#CCC8C5]/60 before:content-[''] before:z-0 md:before:hidden">
             <Navbar />
 
